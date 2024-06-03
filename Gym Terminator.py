@@ -5,7 +5,6 @@ import pydeck as pdk
 from googletrans import Translator
 from streamlit_player import st_player
 
-
 idiomas = {"es": "Español", "en": "English", "fr": "Français", "de": "Deutsch",
 "pt": "Português", 'ja': "Japanese"}
 translator = Translator()
@@ -24,7 +23,7 @@ minus15 = "Lo siento, no puedes entrar al gimnasio si eres menor de 15 años."
 continue_age = "Continuemos"
 gender = "Que tipo de terminator eres?"
 weight_translate = "Seleccione su peso en libras"
-height_translate = "Seleccione su altura en metros"
+height_translate = "Seleccione su altura en cm"
 weight_metric = "Mi peso es de "
 height_metric = "Mi estatura es de "
 weight_unit = "lb"
