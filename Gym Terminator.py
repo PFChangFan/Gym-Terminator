@@ -58,7 +58,7 @@ day3 = "Día 3"
 day4 = "Día 4"
 day5 = "Día 5"
 day6 = "Día 6"
-day7 = "Día 6"
+day7 = "Día 7"
 day1_ex = "Sentadillas, Press de banca y Deadlifts"
 day2_ex = "Dominadas, Dips, Curl de bíceps"
 day3_ex = "Press militar, Elevaciones laterales y Tríceps en pole"
@@ -119,12 +119,12 @@ day4_ex1 = translator.translate(day4_ex, dest=idioma_seleccionado).text
 day5_ex1 = translator.translate(day5_ex, dest=idioma_seleccionado).text
 day6_ex1 = translator.translate(day6_ex, dest=idioma_seleccionado).text
 day7_ex1 = translator.translate(day7_ex, dest=idioma_seleccionado).text
-day1_1 = translator.translate(day1_ex, dest=idioma_seleccionado).text
-day2_1 = translator.translate(day2_ex, dest=idioma_seleccionado).text
-day3_1 = translator.translate(day3_ex, dest=idioma_seleccionado).text
-day4_1 = translator.translate(day4_ex, dest=idioma_seleccionado).text
-day5_1 = translator.translate(day5_ex, dest=idioma_seleccionado).text
-day6_1 = translator.translate(day6_ex, dest=idioma_seleccionado).text
+day1_1 = translator.translate(day1, dest=idioma_seleccionado).text
+day2_1 = translator.translate(day2, dest=idioma_seleccionado).text
+day3_1 = translator.translate(day3, dest=idioma_seleccionado).text
+day4_1 = translator.translate(day4, dest=idioma_seleccionado).text
+day5_1 = translator.translate(day5, dest=idioma_seleccionado).text
+day6_1 = translator.translate(day6, dest=idioma_seleccionado).text
 day7_1 = translator.translate(day7, dest=idioma_seleccionado).text
 select_day1 = translator.translate(select_day, dest=idioma_seleccionado).text
 ex_day1 = translator.translate(ex_day, dest=idioma_seleccionado).text
